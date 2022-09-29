@@ -2,7 +2,7 @@
 all: dep
 
 dep:
-	dep ensure -vendor-only
+	dep ensure -vendor-only -v
 
 git-tag:
 	@echo $(label)

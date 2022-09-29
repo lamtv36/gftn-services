@@ -40,7 +40,7 @@
 [[projects]]
   branch = "master"
   digest = "1:c8bf738c94f86fb046b1d36469d631099d37e16bda880ede4a79c407cec74a66"
-  name = "fknsrs.biz/p/xml"
+  name = "github.com/deoxxa/xml"
   packages = ["c14n"]
   pruneopts = "UT"
   revision = "75d8d9641d0d0b737fecdcc42ae43f5746e9978d"
@@ -705,7 +705,7 @@
 [[projects]]
   branch = "master"
   digest = "1:38372990541971ed3125789865d641844ec056d997e14aa9d3c6f03acfe397b0"
-  name = "github.ibm.com/gftn/iso20022"
+  name = "github.com/GFTN/iso20022"
   packages = [
     "camt02600107",
     "camt02900109",
@@ -718,20 +718,20 @@
     "pacs00400109",
     "pacs00800107",
     "pacs00900108",
-    "proto/github.ibm.com/gftn/iso20022/camt02600107",
-    "proto/github.ibm.com/gftn/iso20022/camt02900109",
-    "proto/github.ibm.com/gftn/iso20022/camt05600108",
-    "proto/github.ibm.com/gftn/iso20022/camt08700106",
-    "proto/github.ibm.com/gftn/iso20022/ibwf00100101",
-    "proto/github.ibm.com/gftn/iso20022/ibwf00200101",
-    "proto/github.ibm.com/gftn/iso20022/pacs00200109",
-    "proto/github.ibm.com/gftn/iso20022/pacs00400109",
-    "proto/github.ibm.com/gftn/iso20022/pacs00800107",
-    "proto/github.ibm.com/gftn/iso20022/pacs00900108",
+    "proto/github.com/GFTN/iso20022/camt02600107",
+    "proto/github.com/GFTN/iso20022/camt02900109",
+    "proto/github.com/GFTN/iso20022/camt05600108",
+    "proto/github.com/GFTN/iso20022/camt08700106",
+    "proto/github.com/GFTN/iso20022/ibwf00100101",
+    "proto/github.com/GFTN/iso20022/ibwf00200101",
+    "proto/github.com/GFTN/iso20022/pacs00200109",
+    "proto/github.com/GFTN/iso20022/pacs00400109",
+    "proto/github.com/GFTN/iso20022/pacs00800107",
+    "proto/github.com/GFTN/iso20022/pacs00900108",
   ]
   pruneopts = "UT"
-  revision = "fd640c6697ab286f7913958d9cd8e2df4d7c3cb7"
-  source = "git@github.ibm.com:gftn/iso20022.git"
+  revision = "5a669763c5e112ac4aaea962c3be3183bc41e665"
+  source = "github.com/GFTN/iso20022"
 
 [[projects]]
   branch = "master"
@@ -1027,7 +1027,7 @@
     "firebase.google.com/go",
     "firebase.google.com/go/auth",
     "firebase.google.com/go/db",
-    "fknsrs.biz/p/xml/c14n",
+    "github.com/deoxxa/xml/c14n",
     "github.com/BurntSushi/toml",
     "github.com/asaskevich/govalidator",
     "github.com/aws/aws-sdk-go",
@@ -1087,27 +1087,27 @@
     "github.com/stellar/go/support/errors",
     "github.com/stellar/go/xdr",
     "github.com/urfave/negroni",
-    "github.ibm.com/gftn/iso20022/camt02600107",
-    "github.ibm.com/gftn/iso20022/camt02900109",
-    "github.ibm.com/gftn/iso20022/camt03000105",
-    "github.ibm.com/gftn/iso20022/camt05600108",
-    "github.ibm.com/gftn/iso20022/camt08700106",
-    "github.ibm.com/gftn/iso20022/ibwf00100101",
-    "github.ibm.com/gftn/iso20022/ibwf00200101",
-    "github.ibm.com/gftn/iso20022/pacs00200109",
-    "github.ibm.com/gftn/iso20022/pacs00400109",
-    "github.ibm.com/gftn/iso20022/pacs00800107",
-    "github.ibm.com/gftn/iso20022/pacs00900108",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/camt02600107",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/camt02900109",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/camt05600108",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/camt08700106",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/ibwf00100101",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/ibwf00200101",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/pacs00200109",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/pacs00400109",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/pacs00800107",
-    "github.ibm.com/gftn/iso20022/proto/github.ibm.com/gftn/iso20022/pacs00900108",
+    "github.com/GFTN/iso20022/camt02600107",
+    "github.com/GFTN/iso20022/camt02900109",
+    "github.com/GFTN/iso20022/camt03000105",
+    "github.com/GFTN/iso20022/camt05600108",
+    "github.com/GFTN/iso20022/camt08700106",
+    "github.com/GFTN/iso20022/ibwf00100101",
+    "github.com/GFTN/iso20022/ibwf00200101",
+    "github.com/GFTN/iso20022/pacs00200109",
+    "github.com/GFTN/iso20022/pacs00400109",
+    "github.com/GFTN/iso20022/pacs00800107",
+    "github.com/GFTN/iso20022/pacs00900108",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/camt02600107",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/camt02900109",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/camt05600108",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/camt08700106",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/ibwf00100101",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/ibwf00200101",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/pacs00200109",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/pacs00400109",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/pacs00800107",
+    "github.com/GFTN/iso20022/proto/github.com/GFTN/iso20022/pacs00900108",
     "go.mongodb.org/mongo-driver/bson",
     "go.mongodb.org/mongo-driver/bson/primitive",
     "go.mongodb.org/mongo-driver/mongo",

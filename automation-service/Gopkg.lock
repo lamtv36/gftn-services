@@ -491,8 +491,8 @@
     "utility/wwfirebase",
   ]
   pruneopts = "NUT"
-  revision = "df35692bcee4c6234edf771c2cb4deeacaed7b54"
-  source = "git@github.ibm.com:gftn/gftn-services.git"
+  revision = "29b0dd9b76547c6400b4f448e9b7c287833af81e"
+  source = "github.com/GFTN/gftn-services"
 
 [[projects]]
   digest = "1:549a140c6c3742fe0df432e860fbf636f71d7589ba1e75acdc33a36346010ddc"

@@ -27,7 +27,7 @@ ignored = ["github.com/GFTN/gftn-services/send-service*"
 [[constraint]]
   branch = "development"
   name = "github.com/GFTN/gftn-services"
-  source = "git@github.ibm.com:gftn/gftn-services.git"
+  source = "github.com/GFTN/gftn-services"
 
 [prune]
   unused-packages = true

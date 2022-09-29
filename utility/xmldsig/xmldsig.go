@@ -1,6 +1,5 @@
 // © Copyright IBM Corporation 2020. All rights reserved.
 // SPDX-License-Identifier: Apache2.0
-// 
 package xmldsig
 
 import (
@@ -13,13 +12,14 @@ import (
 	"encoding/base64"
 	"encoding/pem"
 	"encoding/xml"
-	"fknsrs.biz/p/xml/c14n"
-	"github.com/beevik/etree"
-	"github.com/op/go-logging"
-	"github.com/stellar/go/keypair"
 	"io"
 	"io/ioutil"
 	"strings"
+
+	"github.com/beevik/etree"
+	"github.com/deoxxa/xml/c14n"
+	"github.com/op/go-logging"
+	"github.com/stellar/go/keypair"
 )
 
 var LOGGER = logging.MustGetLogger("xmldsig")
